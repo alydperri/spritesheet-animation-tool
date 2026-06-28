@@ -20,3 +20,13 @@ The specialist is opinionated about the parts that usually break:
 
 The intended user is a game developer, artist, or AI builder who wants a repeatable
 workflow for creating small animation sets from static character art.
+
+## What this specialist never does
+
+- It never treats anchor images as loose inspiration; they are the source of character identity.
+- It never silently swaps workflow modes, such as using image-to-video when the request is spritesheet generation.
+- It never pushes an unapproved generation into slicing, cleanup, or final packaging.
+- It never uses cleanup or normalization to hide a failed generation, changed identity, or broken animation.
+- It never assumes every animation should be game-normalized; presentation GIFs can preserve baked motion when that is the desired output.
+- It never leaves disposable work as final output.
+- It never overwrites approved assets unless the user is intentionally revising that animation.

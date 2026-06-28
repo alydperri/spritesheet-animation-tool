@@ -38,11 +38,13 @@ The repo includes a completed example:
 ```text
 demo/walk-east/
 demo/jump-2/
+demo/ghost-sample/
 ```
 
 Use these as expected shapes of finished runs: `walk-east` for standard
 game-normalized output, and `jump-2` for preserved vertical motion in a
-presentation GIF.
+presentation GIF. `ghost-sample` shows a fuller game-character set with several
+animations from the same character.
 
 ## Useful Requests
 

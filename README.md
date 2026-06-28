@@ -8,6 +8,12 @@ from "I have a character image" to "I have an approved animated GIF and
 transparent spritesheet I can put in my game" without hand-writing the same
 cleanup scripts every time.
 
+<p align="center">
+  <img src="demo/ghost-sample/idle-east.gif" alt="Ghost idle east animation" width="120">
+  <img src="demo/ghost-sample/dash-east.gif" alt="Ghost dash east animation" width="120">
+  <img src="demo/ghost-sample/cast-curse-002.gif" alt="Ghost cast curse animation" width="120">
+</p>
+
 ## What It Solves
 
 AI image generation can produce useful animation sheets, but raw outputs often
@@ -91,7 +97,8 @@ Completed examples are included in:
 ```text
 demo/
 ├── walk-east/   # standard game-normalized walk cycle
-└── jump-2/      # presentation GIF with preserved vertical jump motion
+├── jump-2/      # presentation GIF with preserved vertical jump motion
+└── ghost-sample/ # small game-character animation set
 ```
 
 Use it to inspect the kind of asset this workflow produces before running your
